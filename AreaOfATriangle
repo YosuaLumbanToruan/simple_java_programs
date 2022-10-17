@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class AreaOfATriangle {
+    public static void main(String[] args) {
+        double area;
+        int b, h;
+
+        Scanner baca = new Scanner(System.in);
+
+        System.out.println("== Program to find the area of a triangle ==");
+        System.out.print("Input base: ");
+        b = baca.nextInt();
+        System.out.print("Input high: ");
+        h = baca.nextInt();
+
+        area = Double.valueOf((b * h) / 2);
+
+        System.out.println("Area Of Triangle = "+ area) ;
+    }
+}
